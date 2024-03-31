@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3; /* Couleur de fond */
+}
+header {
+    background-color: #333; /* Couleur de l'en-tête */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+h1{
+    color: #fff;
+}
+h2 {
+    color: #333; /* Couleur du texte */
+    text-align: center;
+}
+p {
+    line-height: 1.6;
+}
+.profile-img {
+    width: 100px; /* Taille de l'image */
+    height: 100px;
+    border-radius: 50%; /* Pour faire un cercle */
+    object-fit: cover;
+    margin: 0 auto 20px; /* Centrer et ajouter un espace en dessous */
+    display: block;
+}
+.project {
+    background-color: #fff; /* Couleur de fond des cases de projet */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    transition: transform 0.3s ease; /* Animation de transition */
+    display: flex; /* Utilisation de flexbox */
+    align-items: center; /* Alignement vertical au centre */
+}
+.project:hover {
+    transform: translateY(-5px); /* Effet de translation vers le haut au survol */
+}
+.project img {
+    width: 50px; /* Taille de l'image */
+    height: auto;
+    margin-right: 20px; /* Marge à droite pour séparer l'image du texte */
+    border-radius: 5px; /* Pour arrondir les coins de l'image */
+}
+
+.project h2 {
+    text-align: center;
+}
+
+.project p {
+    padding: 5%;
+}
