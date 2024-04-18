@@ -60,3 +60,16 @@ p {
 .project p {
     padding: 5%;
 }
+div.cover-contact {
+    border-left:4px solid #D89584;
+    padding-left: 8px;
+    display: inline-block;
+
+}
+div.cover-contact * {
+    color: black;
+    font-size: 14px;
+}
+div.contact {
+    text-align: left;
+}
